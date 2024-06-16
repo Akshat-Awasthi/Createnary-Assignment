@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1049px) {
+    .display-div {
+      display: block;
+    }
+  }
+  @media (min-width: 1049px) {
+    .hide-div {
+      display: none;
+    }
+  }
+  
+  
+  /* For screens smaller than 1050px */
+  @media (max-width: 1049px) {
+    .hidden-div {
+      display: none; /* or any other display value to make it visible */
+    }
+  }
